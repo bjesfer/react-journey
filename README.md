@@ -27,7 +27,10 @@ React/
 │   ├── 3_ROUTES_EXPLANATION.md      # Understanding route configuration
 │   ├── 4_ROUTES_DIRECTORY_EXPLANATION.md    # File-based routing patterns
 │   ├── 5_REACT_ROUTER_CONFIG_EXPLANATION.md # Configuration breakdown
-│   └── 6_PURE_REACT_GUIDE.md        # Understanding React without JSX
+│   ├── 6_PURE_REACT_GUIDE.md        # Understanding React without JSX
+│   ├── 7_REACT_OFFICIAL_DOCUMENTATION.md    # Guide to using React official docs
+│   ├── 8_SETTING_UP_REACT_PROJECT_OPTIONS.md    # React setup options and frameworks comparison
+│   └── 9_CREATE_REACT_APP.md                # Complete guide to Create React App for beginners
 │
 ├── 00-first-react-app/      # First React Router v7 project
 │   └── ...
@@ -50,6 +53,9 @@ The `docs/` directory contains detailed guides explaining how React works, cover
 6. **[Routes Directory Explanation](docs/4_ROUTES_DIRECTORY_EXPLANATION.md)** - File-based routing patterns
 7. **[React Router Config Explanation](docs/5_REACT_ROUTER_CONFIG_EXPLANATION.md)** - Configuration file breakdown
 8. **[Pure React Guide](docs/6_PURE_REACT_GUIDE.md)** - Understanding React without JSX: React.createElement, CDN setup, and fundamentals
+9. **[React Official Documentation Guide](docs/7_REACT_OFFICIAL_DOCUMENTATION.md)** - Why and how to use React's official documentation effectively
+10. **[Setting Up React Project Options](docs/8_SETTING_UP_REACT_PROJECT_OPTIONS.md)** - Complete guide to React setup methods, frameworks (Next.js, Remix, Gatsby, etc.), and choosing the right option
+11. **[Create React App Guide](docs/9_CREATE_REACT_APP.md)** - Complete beginner's tutorial: creating projects, understanding file structure, running apps, and making your first "Hello React!" component
 
 ### 📂 Project Directories
 
