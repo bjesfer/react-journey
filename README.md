@@ -20,14 +20,19 @@ Each project in this repository represents a milestone in my learning journey, w
 ```
 React/
 ├── docs/                    # Comprehensive documentation
-│   ├── 0_INSTALLATION_GUIDE.md
-│   ├── 1_SETUP_GUIDE.md
-│   ├── 2_ROOT_EXPLANATION.md
-│   ├── 3_ROUTES_EXPLANATION.md
-│   ├── 4_ROUTES_DIRECTORY_EXPLANATION.md
-│   └── 5_REACT_ROUTER_CONFIG_EXPLANATION.md
+│   ├── 0a_REACT_OVERVIEW.md         # React basics and fundamentals
+│   ├── 0b_INSTALLATION_GUIDE.md     # Setting up React Router v7 projects
+│   ├── 1_SETUP_GUIDE.md             # Understanding file-based routing
+│   ├── 2_ROOT_EXPLANATION.md        # Deep dive into root components
+│   ├── 3_ROUTES_EXPLANATION.md      # Understanding route configuration
+│   ├── 4_ROUTES_DIRECTORY_EXPLANATION.md    # File-based routing patterns
+│   ├── 5_REACT_ROUTER_CONFIG_EXPLANATION.md # Configuration breakdown
+│   └── 6_PURE_REACT_GUIDE.md        # Understanding React without JSX
 │
 ├── 00-first-react-app/      # First React Router v7 project
+│   └── ...
+│
+├── 01-pure-react/           # Pure React without JSX or build tools
 │   └── ...
 │
 └── README.md                # This file
@@ -37,12 +42,14 @@ React/
 
 The `docs/` directory contains detailed guides explaining how React works, covering:
 
-1. **[Installation Guide](docs/0_INSTALLATION_GUIDE.md)** - Step-by-step instructions for setting up React Router v7 projects
-2. **[Setup Guide](docs/1_SETUP_GUIDE.md)** - Understanding file-based routing and basic setup
-3. **[Root Explanation](docs/2_ROOT_EXPLANATION.md)** - Deep dive into `app/root.tsx` and its purpose
-4. **[Routes Explanation](docs/3_ROUTES_EXPLANATION.md)** - Understanding route configuration
-5. **[Routes Directory Explanation](docs/4_ROUTES_DIRECTORY_EXPLANATION.md)** - File-based routing patterns
-6. **[React Router Config Explanation](docs/5_REACT_ROUTER_CONFIG_EXPLANATION.md)** - Configuration file breakdown
+1. **[React Overview](docs/0a_REACT_OVERVIEW.md)** ⭐ **START HERE** - Basic understanding of React, components, JSX, props, state, and hooks
+2. **[Installation Guide](docs/0b_INSTALLATION_GUIDE.md)** - Step-by-step instructions for setting up React Router v7 projects
+3. **[Setup Guide](docs/1_SETUP_GUIDE.md)** - Understanding file-based routing and basic setup
+4. **[Root Explanation](docs/2_ROOT_EXPLANATION.md)** - Deep dive into `app/root.tsx` and its purpose
+5. **[Routes Explanation](docs/3_ROUTES_EXPLANATION.md)** - Understanding route configuration
+6. **[Routes Directory Explanation](docs/4_ROUTES_DIRECTORY_EXPLANATION.md)** - File-based routing patterns
+7. **[React Router Config Explanation](docs/5_REACT_ROUTER_CONFIG_EXPLANATION.md)** - Configuration file breakdown
+8. **[Pure React Guide](docs/6_PURE_REACT_GUIDE.md)** - Understanding React without JSX: React.createElement, CDN setup, and fundamentals
 
 ### 📂 Project Directories
 
@@ -56,6 +63,7 @@ Each numbered directory (e.g., `00-first-react-app/`) represents a different Rea
 **Current Projects:**
 
 - `00-first-react-app/` - My first React Router v7 application with file-based routing
+- `01-pure-react/` - Understanding React fundamentals: React without JSX or build tools, using React.createElement
 
 ---
 
@@ -65,18 +73,23 @@ Each numbered directory (e.g., `00-first-react-app/`) represents a different Rea
 
 If you're new to React, I recommend following this path:
 
-1. **Start with the Documentation**
+1. **Start with React Basics** ⭐
 
-   - Read through the guides in order (0 → 5)
+   - Begin with **[React Overview](docs/0a_REACT_OVERVIEW.md)** to understand what React is, its core concepts (components, JSX, props, state, hooks), and how it works
+   - This foundation is essential before diving into React Router
+
+2. **Continue with the Documentation**
+
+   - Read through the guides in order (Installation → Setup → Explanations)
    - Each guide builds upon the previous one
 
-2. **Explore the Projects**
+3. **Explore the Projects**
 
    - Begin with `00-first-react-app/`
    - Study the code structure and patterns
    - Try modifying and experimenting
 
-3. **Practice**
+4. **Practice**
    - Follow along with the examples
    - Create your own variations
    - Apply what you've learned
@@ -107,8 +120,9 @@ The projects in this repository primarily use:
 
 1. **Browse the Documentation**
 
-   - Start with `docs/0_INSTALLATION_GUIDE.md` for setup instructions
-   - Follow the numbered guides sequentially for a structured learning path
+   - **New to React?** Start with **[React Overview](docs/0a_REACT_OVERVIEW.md)** to understand React fundamentals
+   - Then proceed with `docs/0b_INSTALLATION_GUIDE.md` for setup instructions
+   - Follow the guides sequentially for a structured learning path
 
 2. **Explore Projects**
 
