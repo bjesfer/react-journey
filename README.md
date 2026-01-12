@@ -30,13 +30,22 @@ React/
 │   ├── 6_PURE_REACT_GUIDE.md        # Understanding React without JSX
 │   ├── 7_REACT_OFFICIAL_DOCUMENTATION.md    # Guide to using React official docs
 │   ├── 8_SETTING_UP_REACT_PROJECT_OPTIONS.md    # React setup options and frameworks comparison
-│   └── 9_CREATE_REACT_APP.md                # Complete guide to Create React App for beginners
+│   ├── 9_CREATE_REACT_APP.md                # Complete guide to Create React App for beginners
+│   └── 10_ESSENTIAL_JAVASCRIPT.md          # Essential JavaScript for React: modern JS concepts
 │
 ├── 00-first-react-app/      # First React Router v7 project
 │   └── ...
 │
 ├── 01-pure-react/           # Pure React without JSX or build tools
 │   └── ...
+│
+├── 02-pizza-menu/           # Create React App project
+│   └── ...
+│
+├── 03-essential_javascript/ # JavaScript practice exercises
+│   ├── start.js            # Starter file with exercises
+│   ├── final.js            # Complete solutions
+│   └── README.md           # Activity guide
 │
 └── README.md                # This file
 ```
@@ -56,6 +65,7 @@ The `docs/` directory contains detailed guides explaining how React works, cover
 9. **[React Official Documentation Guide](docs/7_REACT_OFFICIAL_DOCUMENTATION.md)** - Why and how to use React's official documentation effectively
 10. **[Setting Up React Project Options](docs/8_SETTING_UP_REACT_PROJECT_OPTIONS.md)** - Complete guide to React setup methods, frameworks (Next.js, Remix, Gatsby, etc.), and choosing the right option
 11. **[Create React App Guide](docs/9_CREATE_REACT_APP.md)** - Complete beginner's tutorial: creating projects, understanding file structure, running apps, and making your first "Hello React!" component
+12. **[Essential JavaScript Guide](docs/10_ESSENTIAL_JAVASCRIPT.md)** - Complete guide to modern JavaScript concepts needed for React: destructuring, spread/rest, template literals, arrow functions, array methods, async/await, and more
 
 ### 📂 Project Directories
 
@@ -70,6 +80,8 @@ Each numbered directory (e.g., `00-first-react-app/`) represents a different Rea
 
 - `00-first-react-app/` - My first React Router v7 application with file-based routing
 - `01-pure-react/` - Understanding React fundamentals: React without JSX or build tools, using React.createElement
+- `02-pizza-menu/` - Create React App project demonstrating basic React setup and structure
+- `03-essential_javascript/` - JavaScript practice exercises covering all essential concepts needed for React
 
 ---
 
