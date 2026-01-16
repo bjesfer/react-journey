@@ -31,7 +31,10 @@ React/
 │   ├── 7_REACT_OFFICIAL_DOCUMENTATION.md    # Guide to using React official docs
 │   ├── 8_SETTING_UP_REACT_PROJECT_OPTIONS.md    # React setup options and frameworks comparison
 │   ├── 9_CREATE_REACT_APP.md                # Complete guide to Create React App for beginners
-│   └── 10_ESSENTIAL_JAVASCRIPT.md          # Essential JavaScript for React: modern JS concepts
+│   ├── 10_ESSENTIAL_JAVASCRIPT.md          # Essential JavaScript for React: modern JS concepts
+│   ├── 11_WORKING_WITH_COMPONENTS_PROPS.md  # Complete guide to components, props, JSX, and building React apps
+│   ├── 12_SEPARATION_OF_CONCERNS.md        # Activity: Learn to organize React code into separate files
+│   └── 12.1_SEPARATION_OF_CONCERNS_ANSWER.md # Answer key: Step-by-step guide for separation of concerns activity
 │
 ├── 00-first-react-app/      # First React Router v7 project
 │   └── ...
@@ -46,6 +49,9 @@ React/
 │   ├── start.js            # Starter file with exercises
 │   ├── final.js            # Complete solutions
 │   └── README.md           # Activity guide
+│
+├── 04-pizza-menu/           # Pizza menu app: Components, Props, JSX tutorial
+│   └── ...
 │
 └── README.md                # This file
 ```
@@ -66,6 +72,9 @@ The `docs/` directory contains detailed guides explaining how React works, cover
 10. **[Setting Up React Project Options](docs/8_SETTING_UP_REACT_PROJECT_OPTIONS.md)** - Complete guide to React setup methods, frameworks (Next.js, Remix, Gatsby, etc.), and choosing the right option
 11. **[Create React App Guide](docs/9_CREATE_REACT_APP.md)** - Complete beginner's tutorial: creating projects, understanding file structure, running apps, and making your first "Hello React!" component
 12. **[Essential JavaScript Guide](docs/10_ESSENTIAL_JAVASCRIPT.md)** - Complete guide to modern JavaScript concepts needed for React: destructuring, spread/rest, template literals, arrow functions, array methods, async/await, and more
+13. **[Working with Components and Props Guide](docs/11_WORKING_WITH_COMPONENTS_PROPS.md)** - Complete step-by-step guide to building React applications: components, props, JSX, component composition, styling, and building the pizza menu app
+14. **[Separation of Concerns Activity](docs/12_SEPARATION_OF_CONCERNS.md)** - Hands-on activity: Learn to organize React code by separating components and data into different files, following industry best practices
+15. **[Separation of Concerns Answer Key](docs/12.1_SEPARATION_OF_CONCERNS_ANSWER.md)** - Complete step-by-step solution guide for the separation of concerns activity with detailed explanations
 
 ### 📂 Project Directories
 
@@ -82,6 +91,7 @@ Each numbered directory (e.g., `00-first-react-app/`) represents a different Rea
 - `01-pure-react/` - Understanding React fundamentals: React without JSX or build tools, using React.createElement
 - `02-pizza-menu/` - Create React App project demonstrating basic React setup and structure
 - `03-essential_javascript/` - JavaScript practice exercises covering all essential concepts needed for React
+- `04-pizza-menu/` - Complete pizza menu application: Learn components, props, JSX, component composition, conditional rendering, and styling
 
 ---
 
